@@ -55,10 +55,10 @@ def main():
 
 # [5] 메세지 출력 
     while True:
-        message_Title = Big_font.render("SHO_OT-GAME", True, (255, 255, 255))                               # 게임제목 적기
+        message_Title = Big_font.render("SHO_OT-GAME", True, (255, 255, 255))                              # 게임제목 적기
         message_Score = Small_font.render("Score: {}".format(Score), True, (255, 255, 255))                # 스코어
         message_Miss = Small_font.render("Miss Point: {}".format(Miss), True, (255, 255, 255))             # 놓친장애물수
-        message_game_start = Small_font.render("Game_start : Click the Space_bar", True, (241, 95, 95))  # 게임시작
+        message_game_start = Small_font.render("Game_start : Click the Space_bar", True, (241, 95, 95))    # 게임시작
         message_game_over = Big_font.render("Game_over_Score : {}".format(Score), True, (255, 178, 217))   # 게임오버
         message_caution = Small_font.render("Shoot Key: 'A' , Beam got faster : Keep pressing 'A' Key", True, (255, 255, 255))
         SURFACE.fill((0, 0, 0))             # 콘솔창 화면 색상 설정 
