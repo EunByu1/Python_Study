@@ -149,3 +149,4 @@ def main():
 
 if __name__ == '__main__':          # 코드를 실행할 때마다 main()함수를 불러오도록 함 
     main()
+    
