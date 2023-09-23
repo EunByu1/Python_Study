@@ -1,0 +1,32 @@
+# 문자열 연결 연산자
+print("abc" + "abc")
+
+
+# 문자열 반복 연산자
+print("abc" * 3)
+print(3 * "abc")
+
+# 문자 선택 연산자
+# 문자열[숫자]
+print("abcde"[0])
+print("abcde"[1])
+print("abcde"[2])
+print("abcde"[3])
+print("abcde"[4])
+
+print("abcde"[-1])
+print("abcde"[-2])
+print("abcde"[-3])
+print("abcde"[-4])
+print("abcde"[-5])
+
+# 문자열[숫자:숫자]
+print("안녕하세요"[:3])
+print("안녕하세요"[3:])
+
+# 문자열[숫자:숫자:숫자]
+print("0123456789"[:5:3])
+
+#----------------------------------------
+# 문자열 길이
+print(len("안녕하세요"))

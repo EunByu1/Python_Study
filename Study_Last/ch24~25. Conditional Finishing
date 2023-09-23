@@ -1,0 +1,32 @@
+# 불 자료형 변환 
+print(bool(0))
+print(bool(0.0))
+print(bool(""))
+print(bool(1))
+print(bool(" "))
+print(bool(False))
+
+
+# 불 자료형 자동 변환 
+i = input("> 입력해주세요: ").strip()
+
+if i != "":
+  print("입력한 내용:", i)
+
+else:
+  print("프로그램을 다시 실행해주세요")
+
+if i:
+  print("입력한 내용:", i)
+
+
+# pass
+if 1:
+  prass
+  
+  
+# raise NotlmplementedError
+if 1:
+  raise NotImplementedError
+else:
+  print("프로그램을 다시 실행해주세요")  

@@ -1,0 +1,6 @@
+# 입력 : s 단위 
+value = int(input("inch 단위 숫자 : "))
+# 처리 : s -> cm 변환 
+value *= 2.54 
+# 출력 : cm 단위로 출력 
+print("{} cm".format(value))

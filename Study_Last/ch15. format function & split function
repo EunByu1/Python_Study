@@ -1,0 +1,13 @@
+# format 함수 개요 
+a = 52
+b = 273
+
+print("{}+{}={}".format(a, b, a + b))
+print("{}".format("안녕하세요"))
+
+# split  함수 개요 
+print("10 20 30 40".split(" "))
+print("10-20-30-40".split("-"))
+print("10  20  30  40".split())
+print(" 10 20 30 40 ".split())
+print("10  20\t30\n40\n".split())

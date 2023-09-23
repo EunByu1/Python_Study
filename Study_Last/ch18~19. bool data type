@@ -1,0 +1,44 @@
+True    # 참
+False   # 거짓
+
+# 불 만들기: 비교 연산자
+print(10 == 20)
+print(10 != 20)
+print(10 < 20)
+print(10 <= 20)
+print(10 > 20)
+print(10 >= 20)
+
+print("apple" < "banana")
+
+
+# 불 만들기: 논리 연산자
+# 단항 연산자: not
+print(not True)
+
+# 이항 연산자: and 
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+# 이항 연산자: or
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+# 날짜/시간 구하는 방법 
+import datetime
+import pytz
+
+seoul = pytz.timezone("Asia/Seoul")
+now   = datetime.datetime.now(seoul)
+print("{}년 {}월 {}일 {}시 {}분 {}초".format(
+  now.year,
+  now.month,
+  now.day,
+  now.hour,
+  now.minute,
+  now.second
+))
